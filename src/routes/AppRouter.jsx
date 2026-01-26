@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Admin from "../layouts/Admin";
+import App from "../App";
 import Dashboard from "../pages/Dashboard";
 import Error from "../pages/Error";
 import Team from "../pages/Team";
@@ -19,7 +19,7 @@ import SignUp from "../pages/SignUp";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Admin />,
+    element: <App />,
     children: [
       {
         index: true,
