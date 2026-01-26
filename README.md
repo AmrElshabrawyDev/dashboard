@@ -33,7 +33,85 @@ The Dashboard project is a web application built using React, designed to provid
 - **Nivo**: A data visualization library.
 - **FullCalendar**: A JavaScript calendar library.
 
-## 🚀 Getting Started
+## 📁 Project Structure
+
+```
+Dashboard/
+├── public/                          # Static files
+│   ├── index.html                  # Main HTML file
+│   ├── manifest.json               # PWA manifest
+│   ├── robots.txt                  # SEO robots file
+│   ├── assets/                     # Static assets
+│   └── fonts/                      # Font files
+│
+├── src/                            # Source code
+│   ├── components/                 # Reusable React components
+│   │   ├── charts/                 # Chart components
+│   │   │   ├── ChartBarCompo.jsx
+│   │   │   ├── ChartGeographyCompo.jsx
+│   │   │   ├── ChartLineCompo.jsx
+│   │   │   └── ChartPieCompo.jsx
+│   │   ├── common/                 # Common components
+│   │   │   ├── Heading.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Sidebar.jsx
+│   │   ├── dashboardCompo/         # Dashboard-specific components
+│   │   │   ├── ProgressCircle.jsx
+│   │   │   └── StatBox.jsx
+│   │   └── ui/                     # UI components
+│   │       ├── CustomAlert.jsx
+│   │       ├── DataTable.jsx
+│   │       ├── FormTextField.jsx
+│   │       └── ReusableForm.jsx
+│   │
+│   ├── data/                       # Mock data and fixtures
+│   │   ├── mockData.js
+│   │   └── mockGeoFeatures.js
+│   │
+│   ├── pages/                      # Page components
+│   │   ├── Dashboard/
+│   │   ├── BarChart/
+│   │   ├── LineChart/
+│   │   ├── PieChart/
+│   │   ├── GeographyChart/
+│   │   ├── Calendar/
+│   │   ├── Contacts/
+│   │   ├── Invoices/
+│   │   ├── Team/
+│   │   ├── Form/
+│   │   ├── FAQ/
+│   │   ├── SignIn/
+│   │   ├── SignUp/
+│   │   ├── Error/
+│   │   └── Home/
+│   │
+│   ├── layouts/                    # Layout components
+│   │   ├── Admin/
+│   │   └── Users/
+│   │
+│   ├── routes/                     # Router configuration
+│   │   └── AppRouter.jsx
+│   │
+│   ├── App.js                      # Main App component
+│   ├── index.js                    # React DOM render
+│   ├── index.css                   # Global styles
+│   └── theme.js                    # Theme configuration
+│
+├── build/                          # Production build (generated)
+├── package.json                    # Project dependencies
+├── README.md                        # This file
+└── LICENSE                         # License file
+```
+
+### Directory Descriptions:
+
+- **`components/`** - Reusable React components organized by functionality
+- **`pages/`** - Full-page components representing different routes
+- **`layouts/`** - Layout wrapper components for different user types
+- **`data/`** - Mock data and test fixtures
+- **`routes/`** - Routing configuration and navigation setup
+
+## �🚀 Getting Started
 
 To get a local copy up and running, follow these steps:
 
