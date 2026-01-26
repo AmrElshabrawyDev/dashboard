@@ -17,7 +17,7 @@ const SidebarProfile = ({ isCollapsed, colors }) => {
       >
         <Avatar
           alt="profile-user"
-          src={`../../assets/user.png`}
+          src={`../../assets/user-img.png`}
           sx={{ cursor: "pointer", height: "60px", width: "60px" }}
         />
       </Box>

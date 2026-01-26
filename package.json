@@ -1,6 +1,6 @@
 {
-  "name": "crud-operations",
-  "homepage": "https://amr-elshabrawy-dev.github.io/Dashboard",
+  "name": "dashboard",
+  "homepage": "https://amr-elshabrawy-dev.github.io/dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
