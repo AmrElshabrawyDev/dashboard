@@ -8,9 +8,9 @@
 
 ## 📝 Overview
 
-The Dashboard project is a web application built using React, designed to provide a comprehensive overview of various metrics and data visualizations. It leverages modern libraries and frameworks to deliver a responsive and user-friendly interface.
-
 <div align="center">
+
+The Dashboard project is a web application built using React, designed to provide a comprehensive overview of various metrics and data visualizations. It leverages modern libraries and frameworks to deliver a responsive and user-friendly interface.
 
 ⭐ If you find this project helpful, please give it a star! ⭐
 
@@ -84,10 +84,6 @@ Dashboard/
 │   │   ├── SignUp/
 │   │   ├── Error/
 │   │   └── Home/
-│   │
-│   ├── layouts/                    # Layout components
-│   │   ├── Admin/
-│   │   └── Users/
 │   │
 │   ├── routes/                     # Router configuration
 │   │   └── AppRouter.jsx
