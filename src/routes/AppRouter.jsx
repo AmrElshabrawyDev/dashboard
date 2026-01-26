@@ -14,72 +14,76 @@ import GeographyChart from "../pages/GeographyChart";
 import Calendar from "../pages/Calendar";
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
-// import Home from "../pages/Home";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          index: true,
+          element: <Dashboard />,
+        },
+        {
+          path: "signIn",
+          element: <SignIn />,
+        },
+        {
+          path: "signUp",
+          element: <SignUp />,
+        },
+        {
+          path: "team",
+          element: <Team />,
+        },
+        {
+          path: "invoices",
+          element: <Invoices />,
+        },
+        {
+          path: "contacts",
+          element: <Contacts />,
+        },
+        {
+          path: "bar",
+          element: <BarChart />,
+        },
+        {
+          path: "form",
+          element: <Form />,
+        },
+        {
+          path: "line",
+          element: <LineChart />,
+        },
+        {
+          path: "pie",
+          element: <PieChart />,
+        },
+        {
+          path: "faq",
+          element: <FAQ />,
+        },
+        {
+          path: "geography",
+          element: <GeographyChart />,
+        },
+        {
+          path: "calendar",
+          element: <Calendar />,
+        },
+        {
+          path: "*",
+          element: <Error />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        index: true,
-        element: <Dashboard />,
-      },
-      {
-        path: "signIn",
-        element: <SignIn />,
-      },
-      {
-        path: "signUp",
-        element: <SignUp />,
-      },
-      {
-        path: "team",
-        element: <Team />,
-      },
-      {
-        path: "invoices",
-        element: <Invoices />,
-      },
-      {
-        path: "contacts",
-        element: <Contacts />,
-      },
-      {
-        path: "bar",
-        element: <BarChart />,
-      },
-      {
-        path: "form",
-        element: <Form />,
-      },
-      {
-        path: "line",
-        element: <LineChart />,
-      },
-      {
-        path: "pie",
-        element: <PieChart />,
-      },
-      {
-        path: "faq",
-        element: <FAQ />,
-      },
-      {
-        path: "geography",
-        element: <GeographyChart />,
-      },
-      {
-        path: "calendar",
-        element: <Calendar />,
-      },
-      {
-        path: "*",
-        element: <Error />,
-      },
-    ],
+    basename: "/dashboard", // ✅ Very important for GitHub Pages
   },
-]);
+);
 
 const AppRouter = () => {
   return <RouterProvider router={router} />;
