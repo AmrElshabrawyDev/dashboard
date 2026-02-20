@@ -14,7 +14,7 @@ The Dashboard project is a web application built using React, designed to provid
 
 ⭐ If you find this project helpful, please give it a star! ⭐
 
-[Visit Homepage](https://amr-elshabrawy-dev.github.io/dashboard) | [Report Bug](https://github.com/Amr-Elshabrawy-Dev/dashboard/issues) | [Request Feature](https://github.com/Amr-Elshabrawy-Dev/dashboard/issues)
+[Visit Homepage](https://amrelshabrawydev.github.io/dashboard) | [Report Bug](https://github.com/AmrElshabrawyDev/dashboard/issues) | [Request Feature](https://github.com/AmrElshabrawyDev/dashboard/issues)
 
 ## </div>
 
@@ -151,17 +151,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201202546653?text=Hi%20Amr!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20collaboration) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amr-Elshabrawy-Dev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=logmein&logoColor=white)](https://www.linkedin.com/in/amr-elshabrawy-dev) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amrelshabrawy.dev@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://www.x.com/@AmrElshabr43803)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://amrelshabrawydev.github.io/) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201202546653?text=Hi%20Amr!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20collaboration) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmrElshabrawyDev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=logmein&logoColor=white)](https://www.linkedin.com/in/amr-elshabrawy-dev) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amrelshabrawy.dev@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://www.x.com/@AmrElshabr43803)
 
 </div>
 
 ---
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Amr-Elshabrawy-Dev/Amr-Elshabrawy-Dev/d2af4e72d144384618fa4acfb4b773495adacb07/assets/amr.svg" alt="Amr Elshabrawy Logo" width="150px">
+    <img src="https://raw.githubusercontent.com/AmrElshabrawyDev/Amr-Elshabrawy-Dev/d2af4e72d144384618fa4acfb4b773495adacb07/assets/amr.svg" alt="Amr Elshabrawy Logo" width="150px">
     <br/><br/>
     <p align="center">
-        Created with 💚 and ☕ by <strong><a href="https://github.com/Amr-Elshabrawy-Dev" target="_blank" rel="noopener noreferrer">AMR ELSHABRAWY</a></strong><br>
+        Created with 💚 and ☕ by <strong><a href="https://github.com/AmrElshabrawyDev" target="_blank" rel="noopener noreferrer">AMR ELSHABRAWY</a></strong><br>
         &copy; 2025 | All Rights Reserved | Keep coding 🚀
     </p>
 </div>
